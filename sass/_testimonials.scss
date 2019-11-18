@@ -1,0 +1,81 @@
+.testimonials {
+	
+	background: url('../img/fon1.png') no-repeat;
+	background-size: cover;
+	padding-top: 6.3rem;
+}
+
+.talk{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+
+	&__title{
+		display: block;
+		text-align: center;
+		font-size:3rem;
+		color: #fff;
+	}
+}
+
+.brands{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows:  1fr 1fr;
+	grid-gap: 3rem;
+	margin-top: 6.3rem;
+	padding: 0 2rem;
+	max-width: 70rem;
+
+	&__item {
+		display: block;
+		text-align: center; 
+
+		&-img {
+			margin-bottom: 2rem;
+		}
+
+		&_logo1 {
+			width: 10.3rem;
+		}
+
+		&_logo2 {
+			width: 9.25rem;
+		}
+
+		&_logo3 {
+			width: 3.5rem;
+		}
+
+		&_logo4 {
+			width: 14.1rem;
+		}
+
+		&_logo5 {
+			width: 10.4rem;
+		}
+		&_logo6 {
+			width: 6.75rem;
+		}
+
+		&_text{
+			font-family: 'Source Sans Pro', sans-serif, italic;
+			font-weight: 700;
+			font-size: 1rem;
+			color: #fff;
+			line-height: 1.5;
+			margin-bottom: 2rem;
+		}
+	}
+}
+
+
+
+.talk__string {
+	width: 70%;
+	height: .1rem;
+	background: #655969;
+	margin: 6.25rem 0 3.1rem 0;
+	text-align: center;
+}

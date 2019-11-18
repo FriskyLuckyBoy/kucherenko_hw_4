@@ -1,0 +1,123 @@
+@media screen and (max-width: 6000px) {
+  html {
+    font: 50px/1.6 Montserat, sans-serif;
+  }
+}
+
+@media screen and (max-width: 5000px) {
+  html {
+    font: 40px/1.6 Montserat, sans-serif;
+  }
+}
+
+@media screen and (max-width: 4000px) {
+  html {
+    font: 40px/1.6 Montserat, sans-serif;
+  }
+}
+
+@media screen and (max-width: 3000px) {
+  html {
+    font: 20px/1.6 Montserat, sans-serif;
+  }
+}
+
+@media screen and (max-width: 1610px) {
+  html {
+    font: 13px/1.6 Montserat, sans-serif;
+  }
+  .element4 {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  html {
+    font: 16px/1.6 Montserat, sans-serif;
+  }
+
+ .burger-menu__icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 0;
+  }
+  header nav{
+    display: none;
+  }
+  
+  
+  .window{display: none;}
+  .window-media{
+    display: flex;
+  }
+  .advantages__side-media-title{
+    display: block;
+  }
+  .side{
+    display: none;
+  }
+  .order{
+    flex-direction: column;
+    justify-content: center;
+  
+  }
+
+  .advantages{
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 1120px) {
+  html {
+    font: 16px/1.6 Montserat, sans-serif;
+  }
+  .brands{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 25rem;
+  margin-top: 6.3rem;
+  padding: 0 2rem;
+}
+
+}
+
+ @media screen and (max-width: 990px) {
+  html {
+    font: 16px/1.6 Montserat, sans-serif;
+  }
+}
+  @media screen and (max-width: 768px) {
+  html {
+    font: 14px/1.6 Montserat, sans-serif;
+  }
+
+  
+}
+
+ @media screen and (max-width: 500px) {
+  html {
+    font: 14px/1.6 Montserat, sans-serif;
+  }
+
+  
+  .article p:last-child{
+    margin-top: 4.2rem;
+  }
+}
+ @media screen and (max-width: 479px) {
+  html {
+    font: 10px/1.6 Montserat, sans-serif;
+  } 
+}
+ @media screen and (max-width: 320px) {
+  html {
+    font: 8px/1.6 Montserat, sans-serif;
+  }
+
+.article p:last-child{
+  margin-top: 5rem;
+}
+}
+

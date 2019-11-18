@@ -1,0 +1,111 @@
+.marketplace {
+	background: url('../img/fon2.png') center no-repeat;
+	background-size: cover;
+}
+
+.pricing {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding: 2rem 0 4.9rem 0;
+
+	&__title{
+		color: #fff;
+		font-size: 3rem;
+		font-weight: 700;
+		margin-bottom: 8.1rem;
+	}
+
+	&__text{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: .9rem;
+	font-weight: 300;
+	color: #a291a5;
+	padding-left: 5rem;
+	padding-right: 5rem;
+}
+}
+
+.price {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-bottom: 8.44rem;
+}
+ 
+.buy-button{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 15.9rem;
+	background: rgba(255,255,255,.11);
+	color: #fff;
+	padding-bottom: 2rem;
+	margin: 0 1rem 2rem 1rem;
+	transition: .7s linear;
+	outline: none;
+
+	&:hover {
+	background: rgba(0,0,0,.16);
+	transform: scale(1.1);
+
+	}
+
+	&__title{
+	display: flex;
+	justify-content: center;
+	padding-top: 2.8rem;
+	width: 15.9rem;
+	height:6.1rem;
+	background: rgba(255,255,255,.06);
+	color: #fff;
+	font-size: 1.5rem;
+	text-transform: uppercase;
+	margin-bottom: 2.2rem;
+	}
+
+	&__price{
+	color: #fff;
+	font-size: 3.76rem;
+	font-weight: 700;
+	margin-bottom: 1.4rem;
+	}
+
+	&__how{
+	color: rgba(255,255,255,.3);
+	font-size: .9rem;
+	text-transform: uppercase;
+	margin-bottom: 2rem;
+	}
+
+	&__str{
+	width: 4rem;
+	height: .38rem;
+	background: #8d81ac;
+	margin-bottom: 1.8rem;
+	}
+
+	&__for{
+		color: rgb(255,255,255);
+		font-size: 1rem;
+	}
+
+	&__btn{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 10rem;
+	height: 2.6rem;
+	border-radius: 1.3rem;
+	background: rgba(255,255,255,.15);
+	text-transform: uppercase;
+	font-size: .94rem;
+	margin-top: 3rem;
+	}
+
+	&__btn_bias {
+	margin-top: 4.1rem;
+	}
+}
