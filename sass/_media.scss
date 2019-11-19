@@ -26,7 +26,7 @@
   html {
     font: 13px/1.6 Montserat, sans-serif;
   }
-  .element4 {
+  .footer-elements__element4 {
     width: 100%;
   }
 }
@@ -60,7 +60,6 @@
   .order{
     flex-direction: column;
     justify-content: center;
-  
   }
 
   .advantages{
@@ -72,15 +71,15 @@
   html {
     font: 16px/1.6 Montserat, sans-serif;
   }
-  .brands{
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  max-width: 25rem;
-  margin-top: 6.3rem;
-  padding: 0 2rem;
-}
 
+  .brands{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 25rem;
+    margin-top: 6.3rem;
+    padding: 0 2rem;
+  }
 }
 
  @media screen and (max-width: 990px) {
@@ -92,7 +91,9 @@
   html {
     font: 14px/1.6 Montserat, sans-serif;
   }
-
+  .container{
+  width: 85%;
+  }
   
 }
 

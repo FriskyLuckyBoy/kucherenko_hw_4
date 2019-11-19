@@ -1,0 +1,40 @@
+.mail-form{
+	background: #f4f4f4;
+	background-size: cover;
+}
+
+.form__title {
+	color: #635c73;
+	font-size: 1.9rem;
+	font-weight: 700;
+}
+
+.form{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 3.5rem 1.9rem;
+}
+
+.mail__button{
+	width: 8.75rem;
+	height: 2.6rem;
+	background: #8d81ac;
+	border-radius: 1.3rem;
+	font-size: .8rem;
+	text-transform: uppercase;
+	color: #fff;
+	outline: none;
+	margin: 1.3rem 1.3rem 1.3rem 0;
+}
+
+.mail__input{
+	width: 21rem;
+	height: 2.6rem;
+	border-radius: 1.3rem;
+	color: #c8cbcf;
+	font-size: .9rem;
+	outline: none;
+	margin: 1.3rem 1.3rem 1.3rem 0;
+}
